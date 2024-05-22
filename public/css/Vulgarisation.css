@@ -1,0 +1,312 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    font-family: "Segoe UI";
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 140px 1fr 400px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    background-color: #FFF2CB;
+    width: 100%;
+    height: 5000px;
+    z-index: -1;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 310px 130px 700px 1700px 500px 450px 500px 200px;
+    grid-template-areas:
+        "cbeige"
+        "vgris"
+        "vrose"
+        "vbleu"
+        "vorange"
+        "vjaune"
+        "vbeige";
+    width: 100%;
+    height: 100%;
+}
+
+.vgris {
+    grid-area: vgris;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.vrose{
+    background-color: #F6F2EF;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.vrose h1{
+    color: #77bdbf;
+    font-size: calc(2rem + 2vw);
+}
+.vbleu {
+    grid-area: vbleu;
+    width: 100%;
+    background-color: #F191C2;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.vbleu h1{
+    color: #ffffff;
+    font-size: calc(2rem + 2vw);
+}
+
+.Brassage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 12em);
+    width: 100%;
+    grid-template-areas:
+    "Concassage Concassage Concilu"
+    "Empailu Empatage Empatage"
+    "Filtra Filtra Filtrailu"
+    "Ebulliilu Ebulli Ebulli"
+    "Clarifica Clarifica Clarificailu"
+    "Refroidilu Refroidissement Refroidissement"
+}
+.Concassage{
+    grid-area: Concassage;
+    padding: 0% 8% 0% 10%;
+}
+.Concilu{
+    grid-area: Concilu;
+}
+.Empatage{
+    grid-area: Empatage;
+    padding: 10% 8% 0% 25%;
+}
+.Empailu{
+    grid-area: Empailu;
+}
+.Filtra{
+    grid-area: Filtra;
+    padding: 9% 30% 0% 10%;
+}
+.Filtrailu{
+    grid-area: Filtrailu;
+}
+.Ebulli{
+    grid-area: Ebulli;
+    padding: 16% 8% 0% 25%;
+}
+.Ebulliilu{
+    grid-area: Ebulliilu;
+}
+.Clarifica{
+    grid-area: Clarifica;
+    padding: 20% 30% 0% 10%;
+}
+.Clarificailu{
+    grid-area: Clarificailu;
+}
+.Refroidissement{
+    grid-area: Refroidissement;
+    padding: 18% 8% 0% 25%;
+}
+.Refroidilu{
+    grid-area: Refroidilu;
+}
+.Brassage p {
+    font-size: calc(0.3rem + 1vw);
+    color: #ffffff;
+}
+.Brassage h2 {
+    color: #ffffff;
+    font-size: calc(1.5rem + 2vw);
+}
+
+.cbeige{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cbeige p{
+    padding: 3% 21%;
+    font-size: calc(0.3rem + 1.1vw);
+}
+.vbeige{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #FBCC54;
+    align-items: center;
+    justify-content: space-between;
+}
+.vbeige h1{
+    color: #ffffff;
+    font-size: calc(2rem + 2vw);
+}
+.vbeige p{
+    padding: 0% 21%;
+    font-size: calc(0.3rem + 1.1vw);
+    color: #ffffff;
+    text-align: center;
+}
+.vorange{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #3DD8FC;
+    align-items: center;
+    justify-content: space-between;
+}
+.vorange h1{
+    color: #ffffff;
+    font-size: calc(2rem + 2vw);
+}
+.vorange p{
+    padding: 0% 21%;
+    font-size: calc(0.3rem + 1.1vw);
+    color: #ffffff;
+    text-align: center;
+}
+.vjaune{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #EBA657;
+    align-items: center;
+    justify-content: space-between;
+}
+.vjaune h1{
+    color: #ffffff;
+    font-size: calc(2rem + 2vw);
+}
+.vjaune p{
+    padding: 0% 21%;
+    font-size: calc(0.3rem + 1.1vw);
+    color: #ffffff;
+    text-align: center;
+}
+section div img {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+header img {
+    padding: 1% 1% 1% 2%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.cbeige h1{
+    
+    font-size: 4rem;
+
+    position: absolute;
+    top: 4%;
+    left: 34%;
+    z-index: -1;
+}
+
+/*nav a,
+a:visited {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+*/
+nav a{
+    color: black;
+}
+nav a:hover {
+    color: white;
+}
+
+/**** NAVBAR ****/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 0% 1% 2%;
+    font-size: calc(1rem + 1.5vw);
+    width: 5%;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#icons {
+    cursor: pointer;
+    display: none;
+    
+}
+div#icons {
+    z-index: 1;
+}
+#icons {
+    display: block;
+}
+
+#icons:before {
+    content: "\2630";
+}
+
+.active #icons:before {
+    content: "\2715";
+}
+
+nav ul {
+    position: fixed;
+    right: -100%;
+    top: 0%;
+    flex-direction: column;
+    background: #8FDBFF;
+    width: 50%;
+    text-align: center;
+    transition: 0.25s;
+    height: 100%;
+}
+
+nav li {
+    padding: 5% 0% 0% 8%;
+}
+
+nav li:hover {
+    background: rgb(157, 217, 240);
+}
+
+nav.active ul {
+    right: 0;
+}
+footer {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row: 400px;
+    
+}
+
+footer li a{
+    color: #ffffff;
+}
+footer img{
+    width: 3%;
+}
