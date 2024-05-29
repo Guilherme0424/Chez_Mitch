@@ -10,11 +10,11 @@
 
 <body>
     <header>
-        <img src="Mitch noir (1).png" alt="">
+        <img src="public/images/Mitch noir (1).png" alt="">
 
         <nav id="nav" class="active">
             <ul>
-                <li><a href="#">Acceuil</a></li>
+                <li><a href="#">Accueil</a></li>
                 <li><a href="#">Bières</a></li>
                 <li><a href="#">Notre brasserie</a></li>
                 <li><a href="#">Vulgarisation</a></li>
@@ -22,7 +22,7 @@
             </ul>
             <div id="icons"></div>
         </nav>
-        <script src="Vulgarisation.js"></script>
+        <script src="public/js/Vulgarisation.js"></script>
     </header>
     <main>
         <section>
@@ -36,12 +36,12 @@
                     que nous voulions mais aussi en savoir plus sur l'impact écologique lié à la production de bière,
                     ainsi que connaitre les risques liés à l'alcool.</p>
             </div>
-            <div class="vgris"><img src="Vague grise.svg" alt=""></div>
-            <div class="vrose"><img src="Vague rose.svg" alt="">
+            <div class="vgris"><img src="public/images/Vague grise.svg" alt=""></div>
+            <div class="vrose"><img src="public/images/Vague rose.svg" alt="">
                 <h1>Les ingrédients</h1>
             </div>
             <div class="vbleu">
-                <img src="Vague bleu.svg" alt="">
+                <img src="public/images/Vague bleu.svg" alt="">
 
                 <div class="Brassage">
                     <div class="Concassage">
@@ -103,20 +103,20 @@
 
 
             </div>
-            <div class="vorange"><img src="Vague orange.svg" alt="">
+            <div class="vorange"><img src="public/images/Vague orange.svg" alt="">
                 <p>Lors de cette étape ont ajoute des levures et conversion des sucres en CO2 et en alcool. Il y a
                     production de centaines de composants impliqués dans les arômes et le goût de la bière. La
                     fermentation dure une dizaine de jours. Durant cette étape on évite un maximum le contact avec la
                     bière afin d’éviter toute modification des caractéristiques de la bière.</p>
                 <h1>La Fermentation </h1>
             </div>
-            <div class="vjaune"><img src="Vague jaune.svg" alt="">
+            <div class="vjaune"><img src="public/images/Vague jaune.svg" alt="">
                 <p>La période de maturation en cuve permet à certaines bières de développer pleinement leur potentiel
                     avant d'être embouteillées. Ce processus de maturation peut également être effectué en fût, durant
                     des périodes allant de quelques semaines à plusieurs années.</p>
                 <h1>La maturation</h1>
             </div>
-            <div class="vbeige"><img src="Vague beige.svg" alt="">
+            <div class="vbeige"><img src="public/images/Vague beige.svg" alt="">
                 <p>Tout d’abord, on nettoie le matériel et les contenants. Là encore, le nettoyage des bouteilles est
                     très important pour éviter toute contamination.
                     Peu avant la mise en bouteille, on ajoute du sucre au moût fermenté afin de réactiver les levures.
@@ -129,6 +129,7 @@
         </section>
     </main>
     <footer class="Pied">
+    <div class="wave"><img src="public/images/vague Noir.svg" alt=""></div>
         <div class="Infos">
             <ul>
                 <h3>Informations</h3>
@@ -148,9 +149,9 @@
         <div class="Contact">
             <ul>
                 <h3>Contacts</h3>
-                <li><img src="telephone.png" alt=""><a href="#">+33 01 23 45 67 89</a></li>
-                <li><img src="mail.png" alt=""><a href="#">chezmitch.brasserie@gmail.com</a></li>
-                <li><img src="insta.png" alt=""><a href="#">chez.mitch</a></li>
+                <li><img src="public/images/telephone.png" alt=""><a href="#">+33 01 23 45 67 89</a></li>
+                <li><img src="public/images/mail.png" alt=""><a href="#">chezmitch.brasserie@gmail.com</a></li>
+                <li><img src="public/images/insta.png" alt=""><a href="#">chez.mitch</a></li>
             </ul>
         </div>
     </footer>

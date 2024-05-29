@@ -9,7 +9,7 @@
 body {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 140px 1fr 400px;
+    grid-template-rows: 140px 1fr 350px;
     grid-template-areas:
         "header"
         "main"
@@ -17,7 +17,6 @@ body {
     background-color: #FFF2CB;
     width: 100%;
     height: 5000px;
-    z-index: -1;
 }
 
 section {
@@ -33,7 +32,6 @@ section {
         "vjaune"
         "vbeige";
     width: 100%;
-    height: 100%;
 }
 
 .vgris {
@@ -78,7 +76,7 @@ section {
     "Filtra Filtra Filtrailu"
     "Ebulliilu Ebulli Ebulli"
     "Clarifica Clarifica Clarificailu"
-    "Refroidilu Refroidissement Refroidissement"
+    "Refroidilu Refroidissement Refroidissement";
 }
 .Concassage{
     grid-area: Concassage;
@@ -212,15 +210,12 @@ header {
     top: 0;
 }
 .cbeige h1{
-    
     font-size: 4rem;
-
     position: absolute;
     top: 4%;
-    left: 34%;
+    left: 27%;
     z-index: -1;
 }
-
 /*nav a,
 a:visited {
     color: black;
@@ -234,7 +229,6 @@ nav a{
 nav a:hover {
     color: white;
 }
-
 /**** NAVBAR ****/
 nav {
     display: flex;
@@ -243,7 +237,6 @@ nav {
     padding: 1% 0% 1% 2%;
     font-size: calc(1rem + 1.5vw);
     width: 5%;
-    
 }
 
 nav ul {
@@ -296,17 +289,47 @@ nav.active ul {
     right: 0;
 }
 footer {
-    background-color: black;
     color: white;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row: 400px;
-    
+    grid-template-rows: 250px 200px;
+    grid-template-areas:
+    "wave wave wave"
+    "Infos Liens Contact"
 }
-
+.wave{
+    grid-area: wave;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    align-items: flex-end;
+}
+.wave img{
+    width: 100%;
+}
+.Infos{
+    grid-area: Infos;
+    background-color: #000000;
+}
+.Liens{
+    grid-area: Liens;
+    background-color: #000000;
+}
+.Contact{
+    grid-area:Contact;
+    background-color: #000000;
+}
+footer div{
+    padding: 0% 4%;
+}
+footer li{
+    padding: 2% 0%;
+    display: flex;
+}
 footer li a{
     color: #ffffff;
 }
-footer img{
-    width: 3%;
+footer .Contact img{
+    width: 6%;
+    padding: 0% 2% 0% 0%;
 }
