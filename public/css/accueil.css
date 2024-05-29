@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #F8F7E4;
+}
+
+.vagues img {}
+
+.principal h1 {
+    display: flex;
+    padding-top: 200px;
+    padding-left: 100px;
+    color: yellow;
+}
+
+.principal {
+    background-color: #92CFEC;
+}
+
+.bande {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: #92CFEC;
+}
+
+.notrebrasserie img {
+    width: 80%;
+    margin-left: 80px;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: 1fr;
+}
+
+.notrebrasserie {
+    display: grid;
+grid-area: 1/1/1/1;
+}
+
+aside {
+    display: grid;
+    grid-area: 1/2/1/span 1;
+    padding: 10%;
+    text-align: center;
+}
+
+
