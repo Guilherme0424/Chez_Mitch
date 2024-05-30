@@ -1,0 +1,24 @@
+*{
+    background-color: #F8F7E4;
+}
+
+
+h1 {
+    font-family: ;
+    justify-content: center;
+    display: flex;
+
+}
+
+.image img{
+    width: 40%;
+    background: linear-gradient(to right, #F1A159, #FFD2A8);
+    border-radius: 15%;
+    padding: 50px;
+    
+}
+
+.image {
+    width: 20%;
+
+}
