@@ -20,5 +20,12 @@ h1 {
 
 .image {
     width: 20%;
+    
+}
+
+.container {
+    display: flex;
+
+
 
 }
