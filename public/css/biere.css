@@ -4,16 +4,13 @@
     padding: 0;
 }
 
-body {
-    width: 100%;
-    background: linear-gradient(to right, #F1A159, #FFD2A8);
-}
 
 section {
+    background: linear-gradient(to right, #F1A159, #FFD2A8);
     display: grid;
     grid-template-columns: 50% 15% 35%;
     grid-template-rows: 700px;
-    height: 300px;
+    height: 80%;
     grid-template-areas: 
     "gauche vaguedroite droite"
 }
@@ -32,7 +29,7 @@ section {
 }
 .vaguedroite{
     grid-area: vaguedroite;
-    height: 80%;
+    height: 100%;
     display: flex;
     justify-content: flex-end;
 }
@@ -42,7 +39,7 @@ section {
 .droite {
     background-color: #D8CEC4;
     grid-area: droite;
-    height: 80%;
+    height: 100%;
 }
 .texte {
     grid-area: texte;
