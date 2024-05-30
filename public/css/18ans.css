@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+body{
+    cursor: url("/public/images/ShakaTeste.png"), auto;;
+}
+
 
 .logo{
 padding: 1% 1% 1% 2%;
@@ -57,7 +61,11 @@ p{
     transition: 0.5s;
 }
 
-p:hover{
+a :hover{
     color: rgb(26, 241, 252);
     animation:infinite;
+}
+
+.block {
+    cursor: url("/public/images/ShakaTeste.png"), auto;
 }
