@@ -9,21 +9,6 @@
 </head>
 
 <body>
-    <header>
-    <img src="public/images/Mitch noir (1).png" alt="">
-
-    <nav id="nav" class="active">
-      <ul>
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">Bières</a></li>
-        <li><a href="#">Notre brasserie</a></li>
-        <li><a href="#">Vulgarisation</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <div id="icons"></div>
-    </nav>
-    <script src="public/js/Vulgarisation.js"></script>
-  </header>
     <main>
         <section>
             <div class="head">
@@ -107,33 +92,6 @@
         </section>
     </main>
     
-<footer class="Pied">
-<div class="wave"><img src="public/images/vague Noir.svg" alt=""></div>
-        <div class="Infos">
-            <ul>
-                <h3>Informations</h3>
-                <li><a href="#">Qui sommes-nous</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">FAQ</a></li>
-            </ul>
-        </div>
-        <div class="Liens">
-            <ul>
-                <h3>Liens utiles</h3>
-                <li><a href="#">Mentions légales</a></li>
-                <li><a href="#">Politique de confidentialité</a></li>
-                <li><a href="#">Support</a></li>
-            </ul>
-        </div>
-        <div class="Contact">
-            <ul>
-                <h3>Contacts</h3>
-                <li><img src="public/images/telephone.png" alt=""><a href="#">+33 01 23 45 67 89</a></li>
-                <li><img src="public/images/mail.png" alt=""><a href="#">chezmitch.brasserie@gmail.com</a></li>
-                <li><img src="public/images/insta.png" alt=""><a href="#">chez.mitch</a></li>
-            </ul>
-        </div>
-    </footer>
 </body>
 
 </html>
