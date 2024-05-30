@@ -14,7 +14,7 @@ h1 {
     width: 40%;
     background: linear-gradient(to right, #F1A159, #FFD2A8);
     border-radius: 15%;
-    padding: 50px;
+    padding: 40px;
     
 }
 
@@ -29,11 +29,9 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
-
+    margin-top:70px;
 }
 
 h3 {
     display: flex;
-
 }
