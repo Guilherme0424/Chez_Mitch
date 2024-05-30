@@ -35,17 +35,23 @@
                     <li>Degrés</li>
                 </ul>
                 <ul class="sous-titre">
-                    <li>7.0</li>
+                    <li>7.0</li><br>
                 </ul>
 
                 <ul>
                     <li>Ingrédients</li>
                 </ul>
                 <ul class="sous-titre">
-                    <li>bla</li>
-                    <li>blabla</li>
-                    <li>blablabla</li>
-                    <li>blablablabla</li>
+                    <li>Pilsen</li>
+                    <li>Pale Ale</li>
+                    <li>Flocon d'avoine</li>
+                    <li>Carahell</li>
+                    <li>Houblons</li>
+                    <li>Levure</li>
+                    <li>Graines de coriandre</li>
+                    <li>Fleurs de sureau</li>
+                    <li>Fleurs de cannelle</li>
+                    <li>Poivre blanc</li><br>
                 </ul>
                 <ul>
                     <li>Type</li>

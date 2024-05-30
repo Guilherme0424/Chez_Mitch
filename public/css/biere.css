@@ -43,10 +43,12 @@ section {
 }
 .texte {
     grid-area: texte;
+    padding: 10%;
 }
 .texte img{
     width: 140%;
     padding-right: 40%;
+    padding-top: 10%;
 }
 .rond img{
     width: 20%;
@@ -68,9 +70,12 @@ section {
     grid-area: titre;
     transform: rotate(-5deg);
     font-size: 30px; 
+    padding-top: 10%;
+    padding-left: 10%;
 }
 .flèche {
     grid-area: flèche;
+    padding-top: 10%;
     
 }
 .flèche img{
@@ -78,11 +83,13 @@ section {
 }
 .sous-titre {
     list-style-type: none;
+    font-size: 20px;
 }
 .liste {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 10%;
+    padding: 25%;
+    font-size: 25px;
 }
