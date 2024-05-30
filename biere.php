@@ -17,12 +17,13 @@
             <div class="texte">
                 <h3>L’originale est une bière belgian pale ale à l’effigie de Mitch.
                     Elle retrace son parcours en tant qu’incroyable surfeur cali-breton.🌴</h3>
+                    <img src="public/images/rond noir.svg" alt="rond noir">
             </div>
             <div class="flèche">
                 <img src="public/images/flèche noir.png">
             </div>
             <div class="rond">
-                <img src="public/images/rond noir.svg" alt="rond noir">
+                
             </div>
         </div>
         <div class="vaguedroite">
@@ -54,10 +55,7 @@
                 </ul>
             </div>
         </div>
-        
     </section>
 </body>
-<div class="vague">
-            <img src="public/images/vague blanche.svg">
-        </div>
+
 </html>
