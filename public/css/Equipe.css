@@ -1,0 +1,310 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: "Segoe UI";
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 140px 1fr 450px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    width: 100%;
+    height: 4100px;
+    background-color: #F8F7E4;
+}
+footer{
+    grid-area: footer;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr 1fr 1fr ;
+    grid-template-areas: "head";
+    height: 2000px;
+}
+.head{
+    grid-area: head;
+}
+.head h1{
+    font-size: 4rem;
+    text-align: center;
+    padding: 2% 0% 10% 0%;
+}
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "mitchstory mitchstory patateimage"
+    "ekip ekip ekip";
+    height: 600px;
+    
+}
+.mitchstory{
+    grid-area: mitchstory;
+}
+.mitchstory p{
+    padding: 3% 20% 2% 2%;
+}
+.mitchstory h2{
+    padding-left: 2%;
+}
+.patateimage{
+    grid-area: patateimage;
+}
+.ekip{
+    grid-area: ekip;
+    text-align: right;
+    padding: 2% 0% 0% 0%;
+}
+.ekip h2{
+    padding-right: 2%;
+}
+.ekip p{
+    padding: 3% 2% 3% 35%;
+}
+.Lechefdeprojet{
+    display: flex;
+    height: 700px;
+}
+.descrp1{
+    background-color: #97CEE8;
+    width: 33%;
+    text-align: center;
+}
+.vague img{
+    height: 100%;
+    
+}
+.Lechefdeprojet .gensilu{
+    height: 33%;
+    padding: 10% 0% 0% 0%;
+}
+.comp{
+    width: 44%;
+    text-align: center;
+    padding: 5% 8%;
+}
+.descrp1 h1{
+    padding: 20% 0% 40% 0%;
+    font-size: calc(2rem + 2vw);
+    transform : rotate(350deg)
+}
+.descrp1 p{
+    padding: 0% 8%;
+}
+.Lescommunitymanager{
+    display: flex;
+    height: 700px;
+}
+.descrp2{
+    background-color: #FAB4D9;
+    width: 48.7%;
+    text-align: center;
+}
+#lili{
+    height: 33%;
+    padding: 40% 15% 0% 0%;
+}
+ #lisa{
+    height: 33%;
+    padding: 20% 0% 0% 15%;
+}
+.descrp2 h1{
+    padding: 20% 0% 40% 0%;
+    font-size: calc(2rem + 2vw);
+    transform : rotate(350deg)
+}
+.descrp2 p{
+    padding: 0% 8%;
+}
+.Lesdévloppeurs{
+    display: flex;
+    height: 700px;
+}
+.descrp3{
+    background-color: #FFE991;
+    width: 26%;
+    text-align: center;
+}
+#guigui{
+    height: 30%;
+    padding: 5% 15% 0% 0%;
+}
+ #sey{
+    height: 30%;
+    padding: 5% 0% 0% 25%;
+}
+#nath{
+    height: 30%;
+    padding: 5% 15% 0% 0%;
+}
+.descrp3 h1{
+    padding: 20% 0% 40% 0%;
+    font-size: calc(2rem + 2vw);
+    transform : rotate(350deg)
+}
+.descrp3 p{
+    padding: 0% 8%;
+}
+.Nossuperbesbrasseurs{
+    display: flex;
+    height: 700px;
+}
+.descrp4{
+    background-color: #8CC67C;
+    width: 48.5%;
+    text-align: center;
+}
+#dimitri{
+    height: 30%;
+    padding: 5% 15% 0% 0%;
+}
+ #noélie{
+    height: 30%;
+    padding: 5% 0% 0% 25%;
+}
+#pierre{
+    height: 30%;
+    padding: 5% 15% 0% 0%;
+}
+.descrp4 h1{
+    padding: 20% 0% 40% 0%;
+    font-size: calc(2rem + 2vw);
+    transform : rotate(350deg)
+}
+.descrp4 p{
+    padding: 0% 8%;
+}
+
+
+li {
+    list-style: none;
+}
+
+header img {
+    padding: 1% 1% 1% 2%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+nav a{
+    color: black;
+}
+nav a:hover {
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 0% 1% 2%;
+    font-size: calc(1rem + 1.5vw);
+    width: 5%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#icons {
+    cursor: pointer;
+    display: none;
+    
+}
+div#icons {
+    z-index: 1;
+}
+#icons {
+    display: block;
+}
+
+#icons:before {
+    content: "\2630";
+}
+
+.active #icons:before {
+    content: "\2715";
+}
+
+nav ul {
+    position: fixed;
+    right: -100%;
+    top: 0%;
+    flex-direction: column;
+    background: #8FDBFF;
+    width: 50%;
+    text-align: center;
+    transition: 0.25s;
+    height: 100%;
+}
+
+nav li {
+    padding: 5% 0% 0% 8%;
+}
+
+nav li:hover {
+    background: rgb(157, 217, 240);
+}
+
+nav.active ul {
+    right: 0;
+}
+
+/**** FOOTER ****/
+
+footer {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px 200px;
+    grid-template-areas:
+    "wave wave wave"
+    "Infos Liens Contact"
+}
+.wave{
+    grid-area: wave;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    align-items: flex-end;
+}
+.wave img{
+    width: 100%;
+}
+.Infos{
+    grid-area: Infos;
+    background-color: #000000;
+}
+.Liens{
+    grid-area: Liens;
+    background-color: #000000;
+}
+.Contact{
+    grid-area:Contact;
+    background-color: #000000;
+}
+footer div{
+    padding: 0% 4%;
+}
+footer li{
+    padding: 2% 0%;
+    display: flex;
+}
+footer li a{
+    color: #ffffff;
+}
+footer .Contact img{
+    width: 6%;
+    padding: 0% 2% 0% 0%;
+}

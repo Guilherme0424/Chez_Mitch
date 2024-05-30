@@ -1,0 +1,107 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #F1A159, #FFD2A8);
+}
+
+.contenu {
+    display: grid;
+    grid-template-columns: 50% 15% 35%;
+    grid-template-rows: 1fr;
+    height: 100%;
+    background-color: #D8CEC4;
+    grid-template-areas: 
+    "gauche vaguedroite droite"
+    ;
+}
+
+.vaguedroite{
+    grid-area: vaguedroite;
+}
+.gauche {
+    grid-area: gauche ;
+    background: linear-gradient(to right, #F1A159, #FFD2A8);
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "titre titre"
+    "flèche texte"
+    "flèche rond";
+    height: ;
+}
+
+.image {
+    background-color: purple;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+}
+
+.droite {
+    background-color: green;
+grid-area: droite;
+}
+
+.vague {
+    grid-column-start: 1;   
+   
+}
+
+.texte {
+    grid-area: texte;
+    margin: 5%;
+}
+
+.rond img{
+    
+}
+
+.achat h4 {
+    color: white;
+    position: absolute;
+   
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.achat {
+    position: relative;
+}
+
+
+
+.titre {
+    grid-area: titre;
+    transform: rotate(-5deg);
+    font-size: 40px; 
+    
+}
+
+
+
+.flèche {
+    grid-area: flèche;
+ 
+}
+
+
+.sous-titre {
+    list-style-type: none;
+}
+
+.liste {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40%;
+}
