@@ -10,22 +10,23 @@
 
 <body>
     <header>
-        <img src="public/images/Mitch noir (1).png" alt="">
-
+        <img class="logo" src="public/images/Mitch noir (1).png" alt="">
+        <img class="Panier" src="public/images/Panier.png" alt="">
         <nav id="nav" class="active">
             <ul>
                 <li><a href="#">Accueil</a></li>
                 <li><a href="#">Bières</a></li>
                 <li><a href="#">Notre brasserie</a></li>
                 <li><a href="#">Vulgarisation</a></li>
+                <li><a href="#">Avis</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-            <div id="icons"></div>
+            <div id="icons" class="active"></div>
         </nav>
         <script src="public/js/Vulgarisation.js"></script>
     </header>
     <main>
-        <section>
+        <section id="section" class="active">
             <div class="cbeige">
                 <h1>LA VULGARISATION</h1>
                 <p>Notre projet consiste à réaliser une bière de A à Z.
@@ -36,12 +37,69 @@
                     que nous voulions mais aussi en savoir plus sur l'impact écologique lié à la production de bière,
                     ainsi que connaitre les risques liés à l'alcool.</p>
             </div>
-            <div class="vgris"><img src="public/images/Vague grise.svg" alt=""></div>
-            <div class="vrose"><img src="public/images/Vague rose.svg" alt="">
+            <div class="vgris"><img class="v" src="public/images/Vague grise.svg" alt=""></div>
+            <div class="vrose"><img class="v" src="public/images/Vague rose.svg" alt="">
+
+                <div class="malt">
+                    <div class="pilsen"><img src="public/images/pilsen" alt="">
+                        <div class="txtpilsen">
+                            <h3>Pilsen</h3>
+                            <p>Pilsen Légèreté et une amertume du houblon (traditionnellement du Saaz) qui ressort de par une base maltée légère, le malt de base par excellence.</p>
+                        </div>
+                    </div>
+                    <div class="paleale"><img src="public/images/pale ale" alt="">
+                        <div class="txtpaleale">
+                            <h3>Pale Âle</h3>
+                            <p>Est assez douce avec une pointe d'amertume apportée par les houblons Le Malt de base par excellence, malt relativement neutre.</p>
+                        </div>
+                    </div>
+                    <div class="avoine"><img src="public/images/avoine" alt="">
+                        <div class="txtavoine">
+                            <h3>Flocon d’Avoine</h3>
+                            <p>Son goût de noisette se prête à diverses variations.</p>
+                        </div>
+                    </div>
+                    <div class="carahell"><img src="public/images/carahell" alt="">
+                        <div class="txtcarahell">
+                            <h3>Carahell</h3>
+                            <p>caramélisé très léger, apporte un beau doré à notre bières blondes et présente des arômes ronds, une mousse crémeuse, une saveur maltée sucrée et de douces notes de caramel biscuité.</p>
+                        </div>
+                    </div>
+                </div>
+                <h3>Malt</h3>
+                <div class="houbl">
+                    <div class="saaz"><img src="public/images/saaz" alt="">
+                        <div class="txtsaaz">
+                            <h3>Saaz</h3>
+                            <p>Goût et arôme doux, légèrement épicé et subtil. Pas idéal pour amériser une bière. pur houblon aromatique qui donnera des notes uniques florale, poivrées voire mentholée.</p>
+                        </div>
+                    </div>
+                    <div class="hallertau"><img src="public/images/hallertau" alt="">
+                        <div class="txthallertau">
+                            <h3>Hallertau Blanc</h3>
+                            <p>Sa saveur est dite fruitée, avec des notes vineuses de groseille et d'herbe. Il présente également un profil aromatique complexe avec des notes de cassis, de raisin, de pamplemousse ou encore de fleur de sureau.</p>
+                        </div>
+                    </div>
+                    <div class="brawersgold"><img src="public/images/brawers gold" alt="">
+                        <div class="txtbrawersgold">
+                            <h3>Brewers Gold</h3>
+                            <p>Arômes légers de fruits et épices aux bières à haute fermentation, amérisant,
+                                donne une amertume balancée et tardive</p>
+                        </div>
+                    </div>
+                </div>
+                <h3>Houblons</h3>
+                <h3>Notre bière se compose de :</h3>
+                <div class="Iluingredient">
+
+                    <img src="public/images/ilu Ingrédient" alt="">
+
+                </div>
                 <h1>Les ingrédients</h1>
+
             </div>
             <div class="vbleu">
-                <img src="public/images/Vague bleu.svg" alt="">
+                <img class="v" src="public/images/Vague bleu.svg" alt="">
 
                 <div class="Brassage">
                     <div class="Concassage">
@@ -103,20 +161,20 @@
 
 
             </div>
-            <div class="vorange"><img src="public/images/Vague orange.svg" alt="">
+            <div class="vorange"><img class="v" src="public/images/Vague orange.svg" alt="">
                 <p>Lors de cette étape ont ajoute des levures et conversion des sucres en CO2 et en alcool. Il y a
                     production de centaines de composants impliqués dans les arômes et le goût de la bière. La
                     fermentation dure une dizaine de jours. Durant cette étape on évite un maximum le contact avec la
                     bière afin d’éviter toute modification des caractéristiques de la bière.</p>
                 <h1>La Fermentation </h1>
             </div>
-            <div class="vjaune"><img src="public/images/Vague jaune.svg" alt="">
+            <div class="vjaune"><img class="v" src="public/images/Vague jaune.svg" alt="">
                 <p>La période de maturation en cuve permet à certaines bières de développer pleinement leur potentiel
                     avant d'être embouteillées. Ce processus de maturation peut également être effectué en fût, durant
                     des périodes allant de quelques semaines à plusieurs années.</p>
                 <h1>La maturation</h1>
             </div>
-            <div class="vbeige"><img src="public/images/Vague beige.svg" alt="">
+            <div class="vbeige">
                 <p>Tout d’abord, on nettoie le matériel et les contenants. Là encore, le nettoyage des bouteilles est
                     très important pour éviter toute contamination.
                     Peu avant la mise en bouteille, on ajoute du sucre au moût fermenté afin de réactiver les levures.
@@ -129,7 +187,7 @@
         </section>
     </main>
     <footer class="Pied">
-    <div class="wave"><img src="public/images/vague Noir.svg" alt=""></div>
+        <div class="wave"><img src="public/images/vague Noir.svg" alt=""></div>
         <div class="Infos">
             <ul>
                 <h3>Informations</h3>

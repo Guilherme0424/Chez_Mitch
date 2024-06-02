@@ -1,6 +1,6 @@
 </main>
 <footer class="Pied">
-    <img class="wave" src="public/images/vague Noir.svg" alt="">
+    <div class="wave"><img src="public/images/vague Noir.svg" alt=""></div>
         <div class="Infos">
             <ul>
                 <h3>Informations</h3>

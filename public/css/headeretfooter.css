@@ -81,36 +81,47 @@ nav.active ul {
 /**** FOOTER ****/
 
 footer {
-    background-color: black;
     color: white;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 250px 400px;
+    grid-template-rows: 250px 200px;
     grid-template-areas:
     "wave wave wave"
     "Infos Liens Contact"
 }
 .wave{
     grid-area: wave;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    align-items: flex-end;
+}
+.wave img{
+    width: 100%;
 }
 .Infos{
     grid-area: Infos;
+    background-color: #000000;
 }
 .Liens{
     grid-area: Liens;
+    background-color: #000000;
 }
 .Contact{
     grid-area:Contact;
+    background-color: #000000;
 }
 footer div{
     padding: 0% 4%;
 }
 footer li{
     padding: 2% 0%;
+    display: flex;
 }
 footer li a{
     color: #ffffff;
 }
-footer img{
+footer .Contact img{
     width: 6%;
+    padding: 0% 2% 0% 0%;
 }
