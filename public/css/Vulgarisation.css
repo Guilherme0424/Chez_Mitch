@@ -329,6 +329,13 @@ section {
     color: #ffffff;
     text-align: center;
 }
+.cbeige h1{
+    font-size: 4rem;
+    position: absolute;
+    padding-bottom: 18%;
+    left: 27%;
+    z-index: -1;
+}
 section div .v{
     width: 100%;
 }
@@ -339,23 +346,20 @@ li {
     padding: 1% 1% 1% 2%;
 }
 .Panier{
-    padding: 1% 1% 1% 60%;
+    padding: 0% 0% 0% 29%;
     z-index: 6;
+    align-self: center;
 }
-
+.Panier img{
+     width: 12%;
+    padding-left: 88%;
+}
 header {
     display: flex;
     justify-content: space-between;
     position: sticky;
     top: 0;
     z-index: 5;
-}
-.cbeige h1{
-    font-size: 4rem;
-    position: absolute;
-    padding-bottom: 20%;
-    left: 27%;
-    z-index: -1;
 }
 nav a{
     color: black;
@@ -372,13 +376,11 @@ nav {
     font-size: calc(1rem + 1.5vw);
     width: 5%;
 }
-
 nav ul {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
 }
-
 #icons {
     cursor: pointer;
     display: none;
@@ -387,19 +389,15 @@ nav ul {
 #icons {
     display: block;
 }
-
 #icons:before {
     content: "\2630";
 }
-
 .active #icons:before {
     content: "\2715";
 }
 section.active{
     Filter: blur(5px); /* Applique un flou de 5 pixels */
 }
-
-
 nav ul {
     position: fixed;
     right: -100%;
@@ -412,15 +410,12 @@ nav ul {
     height: 100%;
     z-index: 4;
 }
-
 nav li {
     padding: 4% 0% 0% 8%;
 }
-
 nav li:hover {
     background: rgb(157, 217, 240);
 }
-
 nav.active ul {
     right: 0;
 }
