@@ -6,7 +6,7 @@
 }
 
 body{
-    cursor: url("/public/images/ShakaTeste.png"), auto;;
+    cursor: url("/public/images/shakaOrange.png"), ;
 }
 
 
@@ -67,5 +67,24 @@ a :hover{
 }
 
 .block {
-    cursor: url("/public/images/ShakaTeste.png"), auto;
+    cursor: url("/public/images/CursorShakaNet.png"), auto;
+}
+
+
+body {
+    cursor: none; /* masquer le curseur par défaut */
+}
+
+#custom-cursor {
+    position: fixed;
+    width: 28px; /* ajustez la taille de l'image selon vos besoins */
+    height: 28px; /* ajustez la taille de l'image selon vos besoins */
+    background-image: url('/public/images/CursorShakaNet.png');
+    background-size: cover;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+a {
+    cursor: pointer; /* définir le curseur par défaut pour les liens */
 }
