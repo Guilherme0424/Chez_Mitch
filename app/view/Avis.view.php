@@ -1,4 +1,4 @@
-<section>
+<section id="section" class="active">
     <div class="fondblue">
         <h1>AVIS</h1>
         <div class="bibi"><img src="" alt=""></div>

@@ -17,7 +17,7 @@ body {
     background-color: #FFF2CB;
     width: 100%;
     height: 6000px;
-    
+
 }
 
 section {
@@ -42,153 +42,201 @@ section {
     display: flex;
     flex-direction: column-reverse;
 }
-.vrose{
+
+.vrose {
     background-color: #ffffff;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
 }
-.vrose h1{
+
+.vrose h1 {
     color: #77bdbf;
     font-size: calc(2rem + 2vw);
 }
+
 .houbl {
     display: flex;
     justify-content: space-around;
     align-items: stretch;
-    position: relative; /* Ajouté pour le positionnement absolu */
+    position: relative;
+    /* Ajouté pour le positionnement absolu */
     width: 100%;
 }
+
 .houbl img {
     height: 90%;
 }
+
 .hallertau img {
     padding-left: 10%;
 }
-.saaz{
-    position: relative; /* Ajouté pour le positionnement absolu */
+
+.saaz {
+    position: relative;
+    /* Ajouté pour le positionnement absolu */
 }
+
 .txtsaaz {
     position: absolute;
     top: 0;
     left: 1%;
     padding: 10px;
-    width: 100%; /* Ajuste la largeur au conteneur parent */
-    height: 100%; /* Ajuste la hauteur au conteneur parent */
+    width: 100%;
+    /* Ajuste la largeur au conteneur parent */
+    height: 100%;
+    /* Ajuste la hauteur au conteneur parent */
     box-sizing: border-box;
     text-align: center;
     z-index: 2;
 }
-.hallertau{
-    position: relative; /* Ajouté pour le positionnement absolu */
+
+.hallertau {
+    position: relative;
+    /* Ajouté pour le positionnement absolu */
 }
-.txthallertau{
+
+.txthallertau {
     position: absolute;
     top: 0;
     left: 10%;
     padding: 10px;
-    width: 100%; /* Ajuste la largeur au conteneur parent */
-    height: 100%; /* Ajuste la hauteur au conteneur parent */
+    width: 100%;
+    /* Ajuste la largeur au conteneur parent */
+    height: 100%;
+    /* Ajuste la hauteur au conteneur parent */
     box-sizing: border-box;
     text-align: center;
     z-index: 2;
 }
-.brawersgold{
-    position: relative; /* Ajouté pour le positionnement absolu */
+
+.brawersgold {
+    position: relative;
+    /* Ajouté pour le positionnement absolu */
 }
-.txtbrawersgold{
+
+.txtbrawersgold {
     position: absolute;
     top: 0;
     left: 1%;
     padding: 10px;
-    width: 100%; /* Ajuste la largeur au conteneur parent */
-    height: 100%; /* Ajuste la hauteur au conteneur parent */
+    width: 100%;
+    /* Ajuste la largeur au conteneur parent */
+    height: 100%;
+    /* Ajuste la hauteur au conteneur parent */
     box-sizing: border-box;
     text-align: center;
     z-index: 2;
 }
-.malt{
+
+.malt {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: baseline;
-    position: relative; /* Ajouté pour le positionnement absolu */
+    position: relative;
+    /* Ajouté pour le positionnement absolu */
     width: 100%;
 }
-.paleale{
-    position: relative; /* Ajouté pour le positionnement absolu */
+
+.paleale {
+    position: relative;
+    /* Ajouté pour le positionnement absolu */
 }
-.txtpaleale{
+
+.txtpaleale {
     position: absolute;
     top: 0;
     padding: 8.5% 1% 0% 48%;
-    width: 100%; /* Ajuste la largeur au conteneur parent */
-    height: 100%; /* Ajuste la hauteur au conteneur parent */
+    width: 100%;
+    /* Ajuste la largeur au conteneur parent */
+    height: 100%;
+    /* Ajuste la hauteur au conteneur parent */
     box-sizing: border-box;
     text-align: center;
     z-index: 2;
 }
-.paleale img{
+
+.paleale img {
     width: 60%;
     padding-left: 45%;
 }
-.avoine{
-    position: relative; /* Ajouté pour le positionnement absolu */
+
+.avoine {
+    position: relative;
+    /* Ajouté pour le positionnement absolu */
 }
-.txtavoine{
+
+.txtavoine {
     position: absolute;
     top: 0;
     left: 1%;
     padding: 40% 36% 0% 14%;
-    width: 100%; /* Ajuste la largeur au conteneur parent */
-    height: 100%; /* Ajuste la hauteur au conteneur parent */
+    width: 100%;
+    /* Ajuste la largeur au conteneur parent */
+    height: 100%;
+    /* Ajuste la hauteur au conteneur parent */
     box-sizing: border-box;
     text-align: center;
     z-index: 2;
 }
-.avoine img{
+
+.avoine img {
     width: 60%;
     padding-left: 10%;
     padding-top: 20%;
 }
-.carahell{
-    position: relative; /* Ajouté pour le positionnement absolu */
+
+.carahell {
+    position: relative;
+    /* Ajouté pour le positionnement absolu */
 }
-.txtcarahell{
+
+.txtcarahell {
     position: absolute;
     top: 0;
     left: 1%;
     padding: 32% 14% 0% 40%;
-    width: 100%; /* Ajuste la largeur au conteneur parent */
-    height: 100%; /* Ajuste la hauteur au conteneur parent */
+    width: 100%;
+    /* Ajuste la largeur au conteneur parent */
+    height: 100%;
+    /* Ajuste la hauteur au conteneur parent */
     box-sizing: border-box;
     text-align: center;
     z-index: 2;
-    
+
 }
-.carahell img{
+
+.carahell img {
     width: 60%;
     padding-left: 35%;
     padding-top: 20%;
 }
-.pilsen{
-    position: relative; /* Ajouté pour le positionnement absolu */
+
+.pilsen {
+    position: relative;
+    /* Ajouté pour le positionnement absolu */
 }
-.txtpilsen{
+
+.txtpilsen {
     position: absolute;
     top: 0;
     left: 11%;
     padding: 30px 10px;
-    width: 100%; /* Ajuste la largeur au conteneur parent */
-    height: 100%; /* Ajuste la hauteur au conteneur parent */
+    width: 100%;
+    /* Ajuste la largeur au conteneur parent */
+    height: 100%;
+    /* Ajuste la hauteur au conteneur parent */
     box-sizing: border-box;
     text-align: center;
     z-index: 2;
 }
-.pilsen img{
+
+.pilsen img {
     width: 125%;
 }
+
 .vbleu {
     grid-area: vbleu;
     width: 100%;
@@ -198,250 +246,172 @@ section {
     justify-content: space-between;
     align-items: center;
 }
-.vbleu h1{
+
+.vbleu h1 {
     color: #ffffff;
     font-size: calc(2rem + 2vw);
 }
 
-.Brassage{
+.Brassage {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(6, 12em);
     width: 100%;
     grid-template-areas:
-    "Concassage Concassage Concilu"
-    "Empailu Empatage Empatage"
-    "Filtra Filtra Filtrailu"
-    "Ebulliilu Ebulli Ebulli"
-    "Clarifica Clarifica Clarificailu"
-    "Refroidilu Refroidissement Refroidissement";
+        "Concassage Concassage Concilu"
+        "Empailu Empatage Empatage"
+        "Filtra Filtra Filtrailu"
+        "Ebulliilu Ebulli Ebulli"
+        "Clarifica Clarifica Clarificailu"
+        "Refroidilu Refroidissement Refroidissement";
 }
-.Concassage{
+
+.Concassage {
     grid-area: Concassage;
     padding: 0% 8% 0% 10%;
 }
-.Concilu{
+
+.Concilu {
     grid-area: Concilu;
 }
-.Empatage{
+
+.Empatage {
     grid-area: Empatage;
     padding: 10% 8% 0% 25%;
 }
-.Empailu{
+
+.Empailu {
     grid-area: Empailu;
 }
-.Filtra{
+
+.Filtra {
     grid-area: Filtra;
     padding: 9% 30% 0% 10%;
 }
-.Filtrailu{
+
+.Filtrailu {
     grid-area: Filtrailu;
 }
-.Ebulli{
+
+.Ebulli {
     grid-area: Ebulli;
     padding: 16% 8% 0% 25%;
 }
-.Ebulliilu{
+
+.Ebulliilu {
     grid-area: Ebulliilu;
 }
-.Clarifica{
+
+.Clarifica {
     grid-area: Clarifica;
     padding: 20% 30% 0% 10%;
 }
-.Clarificailu{
+
+.Clarificailu {
     grid-area: Clarificailu;
 }
-.Refroidissement{
+
+.Refroidissement {
     grid-area: Refroidissement;
     padding: 18% 8% 0% 25%;
 }
-.Refroidilu{
+
+.Refroidilu {
     grid-area: Refroidilu;
 }
+
 .Brassage p {
     font-size: calc(0.3rem + 1vw);
     color: #ffffff;
 }
+
 .Brassage h2 {
     color: #ffffff;
     font-size: calc(1.5rem + 2vw);
 }
 
-.cbeige{
+.cbeige {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-.cbeige p{
+
+.cbeige p {
     padding: 3% 21%;
     font-size: calc(0.3rem + 1.1vw);
 }
-.vbeige{
+
+.vbeige {
     display: flex;
     flex-direction: column-reverse;
     background-color: #FBCC54;
     align-items: center;
     justify-content: space-between;
 }
-.vbeige h1{
+
+.vbeige h1 {
     color: #ffffff;
     font-size: calc(2rem + 2vw);
 }
-.vbeige p{
+
+.vbeige p {
     padding: 0% 21% 18.5% 21%;
     font-size: calc(0.3rem + 1.1vw);
     color: #ffffff;
     text-align: center;
 }
-.vorange{
+
+.vorange {
     display: flex;
     flex-direction: column-reverse;
     background-color: #3DD8FC;
     align-items: center;
     justify-content: space-between;
 }
-.vorange h1{
+
+.vorange h1 {
     color: #ffffff;
     font-size: calc(2rem + 2vw);
 }
-.vorange p{
+
+.vorange p {
     padding: 0% 21%;
     font-size: calc(0.3rem + 1.1vw);
     color: #ffffff;
     text-align: center;
 }
-.vjaune{
+
+.vjaune {
     display: flex;
     flex-direction: column-reverse;
     background-color: #EBA657;
     align-items: center;
     justify-content: space-between;
 }
-.vjaune h1{
+
+.vjaune h1 {
     color: #ffffff;
     font-size: calc(2rem + 2vw);
 }
-.vjaune p{
+
+.vjaune p {
     padding: 0% 21%;
     font-size: calc(0.3rem + 1.1vw);
     color: #ffffff;
     text-align: center;
 }
-section div .v{
-    width: 100%;
-}
-<<<<<<< HEAD
-div .wave{
-=======
-li {
-    list-style: none;
-}
-.logo {
-    padding: 1% 1% 1% 2%;
-}
-.Panier{
-    padding: 1% 1% 1% 60%;
-    z-index: 6;
-}
 
-header {
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 5;
-}
-.cbeige h1{
+.cbeige h1 {
     font-size: 4rem;
     position: absolute;
-    padding-bottom: 20%;
+    padding-bottom: 18%;
     left: 27%;
     z-index: -1;
 }
-nav a{
-    color: black;
-}
-nav a:hover {
-    color: white;
-}
-/**** NAVBAR ****/
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1% 0% 1% 2%;
-    font-size: calc(1rem + 1.5vw);
-    width: 5%;
-}
 
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-
-#icons {
-    cursor: pointer;
-    display: none;
-    z-index: 6; /* Assure que le bouton icône reste au-dessus de tout */
-}
-#icons {
-    display: block;
-}
-
-#icons:before {
-    content: "\2630";
-}
-
-.active #icons:before {
-    content: "\2715";
-}
-section.active{
-    Filter: blur(5px); /* Applique un flou de 5 pixels */
-}
-
-
-nav ul {
-    position: fixed;
-    right: -100%;
-    top: 0%;
-    flex-direction: column;
-    background: #8FDBFF;
-    width: 50%;
-    text-align: center;
-    transition: 0.25s;
-    height: 100%;
-    z-index: 4;
-}
-
-nav li {
-    padding: 4% 0% 0% 8%;
-}
-
-nav li:hover {
-    background: rgb(157, 217, 240);
-}
-
-nav.active ul {
-    right: 0;
-}
-footer {
-    color: white;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 250px 200px;
-    grid-template-areas:
-    "wave wave wave"
-    "Infos Liens Contact"
-}
-.wave{
-    grid-area: wave;
+section div .v {
     width: 100%;
-    display: flex;
-    padding: 0;
-    align-items: flex-end;
->>>>>>> parent of 5df7e80 (View c'est ok je crois..)
-    background-color: #FBCC54;
 }
+
