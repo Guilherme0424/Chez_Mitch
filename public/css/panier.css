@@ -1,0 +1,144 @@
+ .bie {
+     height: 156px;
+     background: linear-gradient(#d6ffca, #a5e194);
+     width: 140px;
+     border-radius: 35px;
+ }
+
+ .panier {
+     display: flex;
+     width: 60%;
+     margin-top: 100px;
+     padding-left: 340px;
+     align-items: center;
+ }
+
+ .quant {
+     padding: 20px 50px;
+     border: 1px solid black;
+     width: 60px;
+     border-radius: 50px;
+     display: flex;
+ }
+
+ .picto img {
+     width: auto;
+     height: 30px;
+ }
+
+ .ma {
+     margin-left: 30px;
+
+ }
+
+ .produit {
+     border: 1px solid black;
+     border-radius: 35px;
+     flex-direction: column;
+     display: flex;
+     margin-bottom: 100px;
+ }
+
+
+ .flexi2 {
+     padding: 60px 120px;
+
+
+ }
+
+ .flex {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .coté1 {
+     display: flex;
+     flex-direction: column;
+     height: 300px;
+     /* grid-area: coté1; */
+
+ }
+
+ .val a {
+     padding: 30px 120px;
+     border-radius: 50px;
+     background-color: #eba657;
+     width: 100%;
+ }
+
+ .recap {
+     display: flex;
+     flex-direction: column;
+     margin-right: 287px;
+     text-align: center;
+ }
+
+ #un {
+
+     position: relative;
+     right: 13px;
+
+ }
+
+ #deu {
+
+     position: relative;
+     right: -1003px;
+     top: -116px;
+ }
+
+ .dis {
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+ body {
+     /*  display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Header Header"
+      "Vague Vague"
+      "coté1 Commande"; */
+     background-color: #f8f7e4;
+ }
+
+
+ .coté1 h2 {
+     margin-left: 377px;
+
+
+ }
+
+ .pro {
+     font-weight: bold;
+     font-size: 24px;
+
+ }
+
+ .pri {
+     font-weight: bold;
+     font-size: 30px;
+
+ }
+
+ .total {
+     font-weight: bold;
+     font-size: 32px;
+
+ }
+
+ .pa {
+    padding:2px;
+
+ }
+
+ /* header { grid-area: Header; }
+  
+  .vague { grid-area: Vague; }
+  
+  .commande { grid-area: Commande; }
+   */
