@@ -60,12 +60,14 @@ p{
 }
 
 a :hover{
-    color: rgb(26, 241, 252);
-    animation:infinite;
+        font-size: 36px;
+        color: #fff;
+        text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
+
 }
 
 .block {
-    cursor: url("/public/images/CursorShakaNet.png"),  url("/public/images/shakaOrange.png"), auto;
+    cursor: url("../images/CursorShakaNet.png"),  url("../images/shakaOrange.png"), auto;
 }
 
 
@@ -78,7 +80,7 @@ body {
     position: fixed;
     width: 28px; /* ajustez la taille de l'image selon vos besoins */
     height: 28px; /* ajustez la taille de l'image selon vos besoins */
-    background-image: url('/public/images/CursorShakaNet.png');
+    background-image: url('../images/CursorShakaNet.png');
     background-size: cover;
     z-index: 9999;
     pointer-events: none;

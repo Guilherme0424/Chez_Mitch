@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/css/<?=$css?>">
     <title>Avez-Vous 18 étés ?</title>
-    <script src="/public/js/teste.js"></script>
+    <script src="public/js/teste.js"></script>
 </head>
 
 <body>
