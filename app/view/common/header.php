@@ -6,7 +6,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title><?= $page_title ?></title>
   <link rel="stylesheet" type="text/css" href="public/css/headeretfooter.css">
-  /* jsp si c'est utile */<?php if (!empty($css)) : ?>
+  <?php if (!empty($css)) : ?>
   <link rel="stylesheet" href="public/css/<?= $css ?>">
 <?php endif ?>
 </head>

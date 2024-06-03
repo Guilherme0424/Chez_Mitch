@@ -1,4 +1,4 @@
- <section>
+ <section id="section" class="active">
             <div class="head">
                 <h1>Notre brasserie</h1>
             </div>

@@ -155,5 +155,4 @@
                     bière.</p>
                 <h1>ReFermentation en bouteille </h1>
             </div>
-
         </section>
