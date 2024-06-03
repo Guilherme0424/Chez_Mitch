@@ -5,9 +5,7 @@
     text-decoration: none;
 }
 
-body{
-    cursor: url("/public/images/shakaOrange.png"), ;
-}
+
 
 
 .logo{
@@ -67,12 +65,13 @@ a :hover{
 }
 
 .block {
-    cursor: url("/public/images/CursorShakaNet.png"), auto;
+    cursor: url("/public/images/CursorShakaNet.png"),  url("/public/images/shakaOrange.png"), auto;
 }
 
 
 body {
-    cursor: none; /* masquer le curseur par défaut */
+    cursor: none; /* masquer le curseur par défaut    
+    /* cursor: url("/public/images/CursorShakaNet.png"),  */
 }
 
 #custom-cursor {
