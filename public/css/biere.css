@@ -32,12 +32,14 @@ section {
     height: 100%;
     display: flex;
     justify-content: flex-end;
+    position: relative;
 }
 .vaguedroite img{
     height: 100%;
+    filter: opacity(50%);
 }
 .droite {
-    background-color: #D8CEC4;
+    background-color: #d8cec47d;
     grid-area: droite;
     height: 100%;
 }
@@ -45,27 +47,31 @@ section {
     grid-area: texte;
     padding: 10%;
 }
+
+.texte h3 {
+    font-size: 20px;
+}
+
 .texte img{
     width: 140%;
     padding-right: 40%;
     padding-top: 10%;
+    position: relative;
 }
 .rond img{
     width: 20%;
 }
-/*
-.achat h4 {
-    color: white;
+
+#achat {
     position: absolute;
-   
+    top: 55%;
+    left: 39%;
     transform: translate(-50%, -50%);
     z-index: 1;
+    color: white;
+    font-size: 20px;
 }
 
-.achat {
-    position: relative;
-}
-*/
 .titre {
     grid-area: titre;
     transform: rotate(-5deg);
@@ -76,14 +82,18 @@ section {
 .flèche {
     grid-area: flèche;
     padding-top: 10%;
+    left: 100%;
     
 }
 .flèche img{
     width: 100%;
+    height: 110%;
+    transform: rotate(-10deg);
 }
 .sous-titre {
     list-style-type: none;
     font-size: 20px;
+    color: white;
 }
 .liste {
     display: flex;
@@ -92,4 +102,17 @@ section {
     align-items: flex-start;
     padding: 25%;
     font-size: 25px;
+}
+
+.biere {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#originale {
+    width: 70%;
+    transform: rotate(-10deg);
 }
