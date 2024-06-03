@@ -61,3 +61,42 @@
 </body>
 
 </html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Panier</title>
+</head>
+<body>
+    <h1>Votre Panier</h1>
+    <?php if (!empty($panier)): ?>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Quantité</th>
+                    <th>Prix Unitaire</th>
+                    <th>Montant</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach ($panier as $item): ?>
+                    <tr>
+                        <td><?php echo htmlspecialchars($item['biere']['name']); ?></td>
+                        <td><?php echo $item['quantite']; ?></td>²
+                        <td><?php echo number_format($item['biere']['price'], 2); ?> €</td>
+                        <td><?php echo number_format($item['montant'], 2); ?> €</td>
+                    </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+        <h2>Total: <?php echo number_format($totalPanier, 2); ?> €</h2>
+    <?php else: ?>
+        <p>Votre panier est vide.</p>
+    <?php endif; ?>
+    <a href="catalogue.php">Continuer vos achats</a>
+</body>
+</html> -->
