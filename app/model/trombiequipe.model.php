@@ -1,16 +1,12 @@
 <?php
-function getStudent(int $numStudent, PDO $pdo): array {
-    $sql = "SELECT * FROM students WHERE id= :id";
+function getStudent(string $role, PDO $pdo): array {
+    $sql = "SELECT * FROM equipe WHERE Role= :role";
     
     $stmt = $pdo->prepare($sql);
-    $stmt->bindParam(':id',$numStudent , pdo::PARAM_INT);
+    $stmt->bindParam(':role',$role , pdo::PARAM_STR);
     $stmt->execute();
     
-    if(!$student = $stmt->fetch()) {
-        $_SESSION['message'] = "L'étudiant n'existe pas";
-        header('Location: Trombinoscope.php') ;
-        exit;
-    }
+    $student = $stmt->fetchAll();
     return $student;
 }
 
