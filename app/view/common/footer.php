@@ -1,6 +1,10 @@
 </main>
 <footer class="Pied">
+<<<<<<< HEAD
     <img class="wave" src="public/images/vague Noir.svg" alt="">
+=======
+    <div class="wave"><img src="public/images/vague Noir.svg" alt=""></div>
+>>>>>>> parent of 5df7e80 (View c'est ok je crois..)
         <div class="Infos">
             <ul>
                 <h3>Informations</h3>
@@ -13,8 +17,13 @@
             <ul>
                 <h3>Liens utiles</h3>
                 <li><a href="#">Mentions légales</a></li>
+<<<<<<< HEAD
                 <li><a href="#">CGV</a></li>
                 <li><a href="#">CGU</a></li>
+=======
+                <li><a href="#">Politique de confidentialité</a></li>
+                <li><a href="#">Support</a></li>
+>>>>>>> parent of 5df7e80 (View c'est ok je crois..)
             </ul>
         </div>
         <div class="Contact">
