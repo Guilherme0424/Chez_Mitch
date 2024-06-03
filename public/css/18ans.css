@@ -6,6 +6,8 @@
 }
 
 
+
+
 .logo{
 padding: 1% 1% 1% 2%;
 z-index: 1;
@@ -57,7 +59,31 @@ p{
     transition: 0.5s;
 }
 
-p:hover{
+a :hover{
     color: rgb(26, 241, 252);
     animation:infinite;
+}
+
+.block {
+    cursor: url("/public/images/CursorShakaNet.png"),  url("/public/images/shakaOrange.png"), auto;
+}
+
+
+body {
+    cursor: none; /* masquer le curseur par défaut    
+    /* cursor: url("/public/images/CursorShakaNet.png"),  */
+}
+
+#custom-cursor {
+    position: fixed;
+    width: 28px; /* ajustez la taille de l'image selon vos besoins */
+    height: 28px; /* ajustez la taille de l'image selon vos besoins */
+    background-image: url('/public/images/CursorShakaNet.png');
+    background-size: cover;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+a {
+    cursor: pointer; /* définir le curseur par défaut pour les liens */
 }

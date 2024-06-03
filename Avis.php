@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-$page_title = 'Equipe';
-$css = 'Equipe.css';
+$page_title = 'Avis';
+$css = 'Avis.css';
 ob_start();
-include 'app/view/Equipe.view.php';
+include 'app/view/Avis.view.php';
 $content = ob_get_clean();
 
 include 'app/view/common/layout.php';

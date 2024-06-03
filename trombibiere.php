@@ -12,10 +12,11 @@
 
     <div class="image">
         <img src="public/images/Originale.png"/>
-    </div>
-    <div class="Texte">
         <h2>L'Originale</h2>
         <h3>En savoir plus !</h3>
+    </div>
+    <div class="Texte">
+        
     </div>
 
     <div class="image">

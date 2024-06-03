@@ -13,8 +13,8 @@
             <ul>
                 <h3>Liens utiles</h3>
                 <li><a href="#">Mentions légales</a></li>
-                <li><a href="#">CGV</a></li>
-                <li><a href="#">CGU</a></li>
+                <li><a href="#">Politique de confidentialité</a></li>
+                <li><a href="#">Support</a></li>
             </ul>
         </div>
         <div class="Contact">

@@ -4,16 +4,13 @@
     padding: 0;
 }
 
-body {
-    width: 100%;
-    background: linear-gradient(to right, #F1A159, #FFD2A8);
-}
 
 section {
+    background: linear-gradient(to right, #F1A159, #FFD2A8);
     display: grid;
     grid-template-columns: 50% 15% 35%;
-    grid-template-rows: 1fr;
-    height: 100%;
+    grid-template-rows: 700px;
+    height: 80%;
     grid-template-areas: 
     "gauche vaguedroite droite"
 }
@@ -28,58 +25,94 @@ section {
     "flèche texte"
     "flèche rond";
     width: 100%;
+    height: 300px;
 }
 .vaguedroite{
     grid-area: vaguedroite;
-    
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.vaguedroite img{
+    height: 100%;
+    filter: opacity(50%);
 }
 .droite {
-    background-color: #D8CEC4;
+    background-color: #d8cec47d;
     grid-area: droite;
+    height: 100%;
 }
 .texte {
     grid-area: texte;
-    margin: 5%;
+    padding: 10%;
+}
+
+.texte h3 {
+    font-size: 20px;
+}
+
+.texte img{
+    width: 140%;
+    padding-right: 40%;
+    padding-top: 10%;
+    position: relative;
 }
 .rond img{
     width: 20%;
 }
-/*
-.achat h4 {
-    color: white;
+
+#achat {
     position: absolute;
-   
+    top: 55%;
+    left: 39%;
     transform: translate(-50%, -50%);
     z-index: 1;
+    color: white;
+    font-size: 20px;
 }
 
-.achat {
-    position: relative;
-}
-*/
 .titre {
     grid-area: titre;
     transform: rotate(-5deg);
     font-size: 30px; 
-    
+    padding-top: 10%;
+    padding-left: 10%;
 }
 .flèche {
     grid-area: flèche;
+    padding-top: 10%;
+    left: 100%;
     
 }
 .flèche img{
     width: 100%;
+    height: 110%;
+    transform: rotate(-10deg);
 }
 .sous-titre {
     list-style-type: none;
+    font-size: 20px;
+    color: white;
 }
 .liste {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 40%;
+    padding: 25%;
+    font-size: 25px;
 }
-.vague img{
-    width: 100%;
+
+.biere {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#originale {
+    width: 70%;
+    transform: rotate(-10deg);
 }

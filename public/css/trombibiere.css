@@ -3,6 +3,7 @@
 }
 
 
+
 h1 {
 
     justify-content: center;
@@ -14,18 +15,24 @@ h1 {
     width: 40%;
     background: linear-gradient(to right, #F1A159, #FFD2A8);
     border-radius: 15%;
-    padding: 50px;
+    padding: 40px;
     
 }
 
 .image {
     width: 20%;
-
+    display: flex;
+    
 }
 
 .container {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:70px;
+}
 
-
-
+h3 {
+    display: flex;
 }

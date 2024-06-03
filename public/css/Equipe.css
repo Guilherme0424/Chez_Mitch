@@ -5,27 +5,24 @@
     margin: 0;
     padding: 0;
 }
-body{
+body {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 140px 1fr 450px;
+    grid-template-rows: 140px 1fr 350px;
     grid-template-areas:
         "header"
         "main"
         "footer";
-    width: 100%;
-    height: 4100px;
     background-color: #F8F7E4;
-}
-footer{
-    grid-area: footer;
+    width: 100%;
+    height: 6000px;
 }
 section{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr 1fr 1fr 1fr 1fr ;
     grid-template-areas: "head";
-    height: 2000px;
+    height: 100%;
 }
 .head{
     grid-area: head;
@@ -106,11 +103,11 @@ section{
     width: 48.7%;
     text-align: center;
 }
-#lili{
+#Lilirose{
     height: 33%;
     padding: 40% 15% 0% 0%;
 }
- #lisa{
+#Lisa{
     height: 33%;
     padding: 20% 0% 0% 15%;
 }
@@ -182,129 +179,3 @@ section{
 }
 
 
-li {
-    list-style: none;
-}
-
-header img {
-    padding: 1% 1% 1% 2%;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-}
-nav a{
-    color: black;
-}
-nav a:hover {
-    color: white;
-}
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1% 0% 1% 2%;
-    font-size: calc(1rem + 1.5vw);
-    width: 5%;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-
-#icons {
-    cursor: pointer;
-    display: none;
-    
-}
-div#icons {
-    z-index: 1;
-}
-#icons {
-    display: block;
-}
-
-#icons:before {
-    content: "\2630";
-}
-
-.active #icons:before {
-    content: "\2715";
-}
-
-nav ul {
-    position: fixed;
-    right: -100%;
-    top: 0%;
-    flex-direction: column;
-    background: #8FDBFF;
-    width: 50%;
-    text-align: center;
-    transition: 0.25s;
-    height: 100%;
-}
-
-nav li {
-    padding: 5% 0% 0% 8%;
-}
-
-nav li:hover {
-    background: rgb(157, 217, 240);
-}
-
-nav.active ul {
-    right: 0;
-}
-
-/**** FOOTER ****/
-
-footer {
-    color: white;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 250px 200px;
-    grid-template-areas:
-    "wave wave wave"
-    "Infos Liens Contact"
-}
-.wave{
-    grid-area: wave;
-    width: 100%;
-    display: flex;
-    padding: 0;
-    align-items: flex-end;
-}
-.wave img{
-    width: 100%;
-}
-.Infos{
-    grid-area: Infos;
-    background-color: #000000;
-}
-.Liens{
-    grid-area: Liens;
-    background-color: #000000;
-}
-.Contact{
-    grid-area:Contact;
-    background-color: #000000;
-}
-footer div{
-    padding: 0% 4%;
-}
-footer li{
-    padding: 2% 0%;
-    display: flex;
-}
-footer li a{
-    color: #ffffff;
-}
-footer .Contact img{
-    width: 6%;
-    padding: 0% 2% 0% 0%;
-}
