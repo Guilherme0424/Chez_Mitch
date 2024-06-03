@@ -3,7 +3,7 @@
 function getDatabaseConnection(){
 
 $dsn='mysql:dbname=cmitch;host=localhost;charset=utf8';
-$username='user_php';
+$username='root';
 $password='';
 
 
