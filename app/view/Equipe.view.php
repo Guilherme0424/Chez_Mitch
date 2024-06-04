@@ -1,9 +1,4 @@
- <?php
-    include "app/model/ConnexionBDD.php";
-    include "app/model/trombiequipe.model.php";
-    $pdo = getDatabaseConnection()
-    ?>
- <section id="section" class="active">
+<section id="section" class="active">
      <div class="head">
          <h1>Notre brasserie</h1>
      </div>
@@ -81,9 +76,16 @@
              <p>Les designers vont s’occuper de l’identité visuelle de la marque. Cela inclus la création du logo, de la charte graphique, des assets mais aussi de la création de ce site web.</p>
          </div>
          <img src="public/images/Vague Verticale jaune.svg" alt="">
-         <div><img class="gensilu" id="guigui" src="public/images/Guigui.png" alt="">
+         <div>
+            <!-- <img class="gensilu" id="guigui" src="public/images/Guigui.png" alt="">
              <img class="gensilu" id="sey" src="public/images/Sey.png" alt="">
-             <img class="gensilu" id="nath" src="public/images/Nath.png" alt="">
+             <img class="gensilu" id="nath" src="public/images/Nath.png" alt=""> -->
+             <?php
+                $students = getStudent('dev', $pdo);
+                foreach ($students as $student) :
+                ?>
+                 <img class="gensilu" id="<?= str_replace(' ', '', $student['Prenom']); ?>" src="public/images/<?= $student['image_equipe'] ?>" alt="">
+             <?php endforeach ?>
          </div>
          <p class="comp">Compétences :
              dire des choses réels et drôle pour dynamiser</p>
@@ -94,9 +96,16 @@
              <p>Du choix des ingrédients au brassage et à la mise en bouteille, nos brasseurs ont réalisé le produit de A à Z.</p>
          </div>
          <img src="public/images/Vague Verticale verte.svg" alt="">
-         <div><img class="gensilu" id="dimitri" src="public/images/Dimitri.png" alt="">
+         <div>
+            <!-- <img class="gensilu" id="dimitri" src="public/images/Dimitri.png" alt="">
              <img class="gensilu" id="noélie" src="public/images/Noélie.png" alt="">
-             <img class="gensilu" id="pierre" src="public/images/Pierre.png" alt="">
+             <img class="gensilu" id="pierre" src="public/images/Pierre.png" alt=""> -->
+             <?php
+                $students = getStudent('gb', $pdo);
+                foreach ($students as $student) :
+                ?>
+                 <img class="gensilu" id="<?= str_replace(' ', '', $student['Prenom']); ?>" src="public/images/<?= $student['image_equipe'] ?>" alt="">
+             <?php endforeach ?>
          </div>
          <p class="comp">Compétences :
              dire des choses réels et drôle pour dynamiser</p>

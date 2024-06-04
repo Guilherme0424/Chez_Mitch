@@ -14,12 +14,119 @@ body {
         "header"
         "main"
         "footer";
-    background-color: #FFF2CB;
     width: 100%;
-    height: 6000px;
-    
+    background-color: #7BDDF4;
 }
-div .bibi{
+
+section {
+    display: grid;
+    background-color: #7BDDF4;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 394.79px;
+    grid-template-areas: 
+        "fondblue"
+        "vaguebi";
+}
+
+.fondblue {
+    grid-area: fondblue;
+    background-color: #7BDDF4;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "titre titre titre titre"
+    "bibi addavis addavis addavis"
+    "bibi comm comm comm"
+    "bibi list list list"
+    ;
+}
+.fondblue h1{
+    grid-area: titre;
+    font-size: 4rem;
+    text-align: center;
+    top: 3%;
+    position: absolute;
+    left: 45%;
+}
+div .bibi {
+    grid-area: bibi;
     background: linear-gradient(to right, #f1a159, #ffd2a8);
     border-radius: 10px;
+    height: 400px;
+    margin: 0% 12% 0% 12%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.rondo img{
+    width: 100%;
+}
+.bibilu{
+    left: 7.47%;
+    position: absolute;
+    top: 32.5%;
+}
+.bibilu img{
+    width: 45%;
+}
+.add{
+    background: linear-gradient(to right, #f1a159, #ffd2a8);
+    border-radius: 60px;
+    border: none;
+    height: 13%;
+    width: 60%;
+}
+.comm{
+    display: flex;
+    grid-area: comm;
+}
+.addavis{
+    grid-area: addavis;
+    display: flex;
+    justify-content: start;
+}
+.addavis h3{
+    padding-left: 3%;
+}
+.list{
+    grid-area: list;
+    border: solid, 3px;
+    border-radius: 8px;
+    margin-right: 5%;
+}
+.stars {
+    display: flex;
+    padding-left: 1.5%;
+    margin-bottom: 15px;
+}
+
+.stars i {
+    font-size: 30px;
+    color: #ddd;
+    cursor: pointer;
+    padding-right: 12%;
+}
+.stars i.selected {
+    color: #ff9900;
+}
+.commarea{
+    background-color:#7BDDF4;
+    border: solid, 3px; color: #000000;
+    border-radius: 8px;
+    resize: none;
+    width: 60%;
+    height: 18%;
+}
+
+
+.vaguebi {
+    display: flex;
+    flex-direction: column-reverse;
+    grid-area: vaguebi;
+    background-color: #7BDDF4;
+}
+.vaguebi img{
+    width: 100%;
 }

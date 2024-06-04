@@ -9,7 +9,6 @@ function getStudent(string $role, PDO $pdo): array {
     $student = $stmt->fetchAll();
     return $student;
 }
-
 function getAllequipe(PDO $pdo, $equipe){
     $sql = "SELECT * FROM equipe";
     
