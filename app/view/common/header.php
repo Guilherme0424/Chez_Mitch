@@ -15,7 +15,7 @@
 <body>
   <header>
     <img class="logo" src="public/images/Mitch noir (1).png" alt="">
-    <a href="#" class="Panier"><img src="public/images/Panier.png" alt=""></a>
+    <a href="panier.php" class="Panier"><img src="public/images/Panier.png" alt=""></a>
     <nav id="nav" class="active">
       <ul>
         <li><a href="#">Accueil</a></li>
