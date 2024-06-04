@@ -27,7 +27,12 @@ if (!empty($ids)) {
     }
 }
 
-include 'vue_panier.php'; // Assurez-vous de remplacer par le chemin correct vers votre vue
+$page_title = 'Panier';
+$css = "panier.css";
+ob_start();
+include 'app/view/panier.view.php'; // Assurez-vous de remplacer par le chemin correct vers votre vue
+$content = ob_get_clean();
+// include 'app/view/common/layout.php';
 ?>
 
 
