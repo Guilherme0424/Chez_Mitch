@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+@font-face {
+    font-family: 'Farmhouse'; 
+    src: url('../fonts/Farmhouse.otf') format('opentype')
+  }
 
 
 
@@ -47,24 +51,24 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2vw;
-    gap: 11vh;
+    margin-top: 0.7vw;
+    gap: 7vh;
     margin-left: 2vw;
 }
 
 p{
-    font-family: '';
+    font-family: 'Farmhouse';
     color:white;
-    font-size: 2.3vw;
+    font-size: 4.3vw;
     transition: 0.5s;
 }
 
-a :hover{
+/* a :hover{
         font-size: 36px;
         color: #fff;
         text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
 
-}
+} */
 
 .block {
     cursor: url("../images/CursorShakaNet.png"),  url("../images/shakaOrange.png"), auto;
@@ -89,3 +93,20 @@ body {
 a {
     cursor: pointer; /* définir le curseur par défaut pour les liens */
 }
+
+
+a {
+    display: inline-block;
+    position: relative;
+  }
+  
+a {
+    display: inline-block;
+    transition: all 0.3s;
+  }
+  
+a:hover {
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(0, 238, 36, 0.5);
+  
+  }
