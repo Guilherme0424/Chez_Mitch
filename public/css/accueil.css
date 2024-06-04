@@ -9,17 +9,21 @@ body {
     background-color: #F8F7E4;
 }
 
-.vagues img {}
+.vagues img {
+    width: 100%;
+}
 
 .principal h1 {
     display: flex;
-    padding-top: 200px;
+    margin: 100px;
+    justify-content: center;
+    padding-top: 900px;
     padding-left: 100px;
-    color: yellow;
+    color: rgb(0, 0, 0);
 }
 
 .principal {
-    background-color: #92CFEC;
+   margin: 0;
 }
 
 .bande {
@@ -28,7 +32,7 @@ body {
     justify-content: space-around;
     margin-top: 0px;
     padding: 50px 0;
-    margin-bottom: 150px;
+    margin-bottom: 0px;
     background-color: #92CFEC;
 }
 
@@ -47,6 +51,7 @@ main {
 .notrebrasserie {
     display: grid;
 grid-area: 1/1/1/1;
+margin-top: 100px;
 }
 
 aside {
@@ -56,6 +61,14 @@ aside {
     text-align: center;
 }
 
+aside button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    animation: animate 1s ease-in-out 0.6s 1 forwards;
+    border-radius: 50px;
+}
 
 /* caroussel */
 
@@ -81,7 +94,7 @@ aside {
     top: 50%;
     transform: translate(0, -50%);
     border-radius: 20px;
-    box-shadow: 0 30px 50px #505050;
+    /* box-shadow: 0 30px 50px #505050; */
     background-position: 50% 50%;
     background-size: cover;
     display: inline-block;
@@ -156,6 +169,11 @@ aside {
     cursor: pointer;
     opacity: 0;
     animation: animate 1s ease-in-out 0.6s 1 forwards;
+    border-radius: 50px;
+}
+
+.content button :hover{ 
+background-color: #85baff;
 }
 
 
@@ -192,6 +210,6 @@ aside {
 }
 
 .button button:hover{
-    background: #ababab;
+    background: #85baff;
     color: #fff;
 }
