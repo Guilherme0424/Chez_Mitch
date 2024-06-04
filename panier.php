@@ -5,19 +5,23 @@
 // getSpecificBeers($pdo, $ids);
 
 session_start();
-require_once 'app/model/biere.model.php'; // Assurez-vous de remplacer par le chemin correct vers votre modèle
+include 'app/model/biere.model.php'; // Assurez-vous de remplacer par le chemin correct vers votre modèle
+include 'app/model/ConnexionBDD.php';
+
+$pdo=getDatabaseConnection();
 
 $panier = isset($_SESSION['panier']) ? $_SESSION['panier'] : array();
 $ids = array_keys($panier);
-
+$nb_biere=0;
+$totalPanier = 0;
 if (!empty($ids)) {
-    $connexion = mysqli_connect("host", "user", "password", "database"); // Remplacez par vos informations de connexion
-    $biereDetails = getSpecificBeers($connexion, $ids);
+    // $connexion = mysqli_connect("host", "user", "password", "database"); // Remplacez par vos informations de connexion
 
-    $totalPanier = 0;
+    
+    
     foreach ($panier as $id_biere => $quantite) {
-        $biere = $biereDetails[$id_biere];
-        $montant = $biere['price'] * $quantite;
+        $biere = getSpecificBeers($pdo, $id_biere);
+        $montant = $biere['prix'] * $quantite;
         $panier[$id_biere] = array(
             'quantite' => $quantite,
             'biere' => $biere,
@@ -27,7 +31,12 @@ if (!empty($ids)) {
     }
 }
 
-include 'vue_panier.php'; // Assurez-vous de remplacer par le chemin correct vers votre vue
+$page_title = 'Panier';
+$css = "panier.css";
+ob_start();
+include 'app/view/panier.view.php'; // Assurez-vous de remplacer par le chemin correct vers votre vue
+$content = ob_get_clean();
+include 'app/view/common/layout.php';
 ?>
 
 

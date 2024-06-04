@@ -1,5 +1,9 @@
 <?php
 session_start();
+include 'app/model/ConnexionBDD.php';
+include 'app/model/trombiequipe.model.php';
+
+$pdo = getDatabaseConnection();
 
 $page_title = 'Equipe';
 $css = 'Equipe.css';
