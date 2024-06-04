@@ -6,9 +6,10 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title><?= $page_title ?></title>
   <link rel="stylesheet" type="text/css" href="public/css/headeretfooter.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <?php if (!empty($css)) : ?>
-  <link rel="stylesheet" href="public/css/<?= $css ?>">
-<?php endif ?>
+    <link rel="stylesheet" href="public/css/<?= $css ?>">
+  <?php endif ?>
 </head>
 
 <body>
@@ -21,7 +22,6 @@
         <li><a href="#">Bières</a></li>
         <li><a href="#">Notre brasserie</a></li>
         <li><a href="#">Vulgarisation</a></li>
-        <li><a href="#">Avis</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
       <div id="icons" class="active"></div>

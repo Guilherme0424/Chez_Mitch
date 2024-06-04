@@ -1,9 +1,4 @@
- <?php
-    include "app/model/ConnexionBDD.php";
-    include "app/model/trombiequipe.model.php";
-    $pdo = getDatabaseConnection()
-    ?>
- <section id="section" class="active">
+<section id="section" class="active">
      <div class="head">
          <h1>Notre brasserie</h1>
      </div>
