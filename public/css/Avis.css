@@ -7,13 +7,13 @@
 }
 
 body {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 140px 1fr 350px;
     grid-template-areas:
         "header"
         "main"
-        "footer";
+        "footer"; */
     width: 100%;
     background-color: #7BDDF4;
 }
