@@ -12,7 +12,7 @@ $ids = array_keys($panier);
 
 if (!empty($ids)) {
     $connexion = mysqli_connect("host", "user", "password", "database"); // Remplacez par vos informations de connexion
-    $biereDetails = getSpecificBeers($connexion, $ids);
+    $biereDetails = getSpecificBeers($produit, $ids);
 
     $totalPanier = 0;
     foreach ($panier as $id_biere => $quantite) {
@@ -27,7 +27,12 @@ if (!empty($ids)) {
     }
 }
 
-include 'vue_panier.php'; // Assurez-vous de remplacer par le chemin correct vers votre vue
+$page_title = 'Panier';
+$css = "panier.css";
+ob_start();
+include 'app/view/panier.view.php'; // Assurez-vous de remplacer par le chemin correct vers votre vue
+$content = ob_get_clean();
+// include 'app/view/common/layout.php';
 ?>
 
 
