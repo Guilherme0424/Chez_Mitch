@@ -9,10 +9,10 @@ ob_start();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Récupérer les données du formulaire
     $commentaire = $_POST['commentaire'];
-    $note = $_POST['Evaluation'];
+    // $note = $_POST['Evaluation'];
 
     // Appeler la fonction pour ajouter l'avis à la base de données
-    if (ajouterAvis($commentaire, $note)) {
+    if (ajouterAvis($commentaire)) {
         echo "Nouvel avis ajouté avec succès";
     } else {
         echo "Erreur lors de l'ajout de l'avis";
