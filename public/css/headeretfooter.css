@@ -154,3 +154,9 @@ footer .Contact img {
     width: 6%;
     padding: 0% 2% 0% 0%;
 }
+
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 140px 1fr 350px;
+}

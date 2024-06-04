@@ -12,10 +12,6 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 140px 1fr 350px;
-    grid-template-areas:
-        "header"
-        "main"
-        "footer";
     background-color: #F8F7E4;
     width: 100%;
     height: fit-content;
