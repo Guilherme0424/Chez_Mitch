@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -6,23 +6,23 @@
 }
 
 @font-face {
-    font-family: 'Farmhouse'; 
+    font-family: 'Farmhouse';
     src: url('../fonts/Farmhouse.otf') format('opentype')
-  }
-
-
-
-.logo{
-padding: 1% 1% 1% 2%;
-z-index: 1;
-width: 175px;
-position: relative;
-
-padding: 15px;
-right: 0;
 }
 
-header{
+
+
+.logo {
+    padding: 1% 1% 1% 2%;
+    z-index: 1;
+    width: 175px;
+    position: relative;
+
+    padding: 15px;
+    right: 0;
+}
+
+header {
     display: flex;
     width: 100%;
     justify-content: flex-end;
@@ -34,34 +34,27 @@ background-size: cover;
 background-repeat: no-repeat;
 }*/
 
-html, body{
-    width: 100%;
-}
-.background{
+body {
+    width: 100vw;
+    height: 100VH;
+    overflow: hidden;
 
-    width: 100%;
+}
+
+.background {
     position: absolute;
+    width: auto;
     height: 100%;
-    top:0;
-    left: 0;
+    top: 0;
+
+    left: 50%;
+    transform: translateX(-50%);
+    /*met limage au centre de lecrant */
+
     z-index: -1;
+    min-width: 100vw;
 }
 
-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0.7vw;
-    gap: 7vh;
-    margin-left: 2vw;
-}
-
-p{
-    font-family: 'Farmhouse';
-    color:white;
-    font-size: 4.3vw;
-    transition: 0.5s;
-}
 
 /* a :hover{
         font-size: 36px;
@@ -71,42 +64,87 @@ p{
 } */
 
 .block {
-    cursor: url("../images/CursorShakaNet.png"),  url("../images/shakaOrange.png"), auto;
+    cursor: url("../images/CursorShakaNet.png"), url("../images/shakaOrange.png"), auto;
 }
 
 
 body {
-    cursor: none; /* masquer le curseur par défaut    
+    cursor: none;
+    /* masquer le curseur par défaut    
     /* cursor: url("/public/images/CursorShakaNet.png"),  */
 }
 
 #custom-cursor {
     position: fixed;
-    width: 28px; /* ajustez la taille de l'image selon vos besoins */
-    height: 28px; /* ajustez la taille de l'image selon vos besoins */
+    width: 28px;
+    /* ajustez la taille de l'image selon vos besoins */
+    height: 28px;
+    /* ajustez la taille de l'image selon vos besoins */
     background-image: url('../images/CursorShakaNet.png');
     background-size: cover;
     z-index: 9999;
     pointer-events: none;
 }
 
-a {
-    cursor: pointer; /* définir le curseur par défaut pour les liens */
+.panneau {
+    position: absolute;
+    left: 51%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Farmhouse';
+    color: white;
+    font-size: 4.3vw;
 }
 
+.question {
+    top: 25.6vh;
+}
+
+.oui {
+    top: 42.3vh;
+}
+
+.non {
+    top: 59.2VH;
+}
 
 a {
-    display: inline-block;
-    position: relative;
-  }
-  
-a {
-    display: inline-block;
-    transition: all 0.3s;
-  }
-  
+    display: block;
+    cursor: pointer;
+}
+
+@keyframes wiggle {
+    from {
+        transform: rotate(10deg);
+    }
+
+    to {
+        transform: rotate(-10deg);
+    }
+}
+
+a:visited {
+    color: unset;
+}
+
 a:hover {
-    font-weight: bold;
-    text-shadow: 0 0 5px rgba(0, 238, 36, 0.5);
-  
-  }
+    color: blueviolet;
+    animation-name: wiggle;
+    animation-duration: 30ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes sloggle {
+    from {
+        transform: rotate(720deg);
+    }
+
+    to {
+        transform: rotate(-720deg);
+    }
+}
+
+.non>a:hover {
+    animation-duration: 5000ms;
+    animation-name: sloggle;
+}
