@@ -31,6 +31,7 @@
                  nous efforçons de donner vie à vos idées avec originalité et flair.</p>
          </div>
      </div>
+     <div class="line"></div>
      <div class="Lechefdeprojet">
          <div class="descrp1">
              <h1>Le chef de projet</h1>
@@ -51,6 +52,7 @@
          <p class="comp">Compétences :
              dire des choses réels et drôle pour dynamiser</p>
      </div>
+     <div class="line"></div>
      <div class="Lescommunitymanager">
          <div class="descrp2">
              <h1>Les community manager</h1>
@@ -70,6 +72,7 @@
          <p class="comp">Compétences :
              dire des choses réels et drôle pour dynamiser</p>
      </div>
+     <div class="line"></div>
      <div class="Lesdévloppeurs">
          <div class="descrp3">
              <h1>Les dévloppeurs</h1>
@@ -90,6 +93,7 @@
          <p class="comp">Compétences :
              dire des choses réels et drôle pour dynamiser</p>
      </div>
+     <div class="line"></div>
      <div class="Nossuperbesbrasseurs">
          <div class="descrp4">
              <h1>Nos superbes brasseurs</h1>
@@ -110,4 +114,5 @@
          <p class="comp">Compétences :
              dire des choses réels et drôle pour dynamiser</p>
      </div>
+     <div class="line"></div>
  </section>
