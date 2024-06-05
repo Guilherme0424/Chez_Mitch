@@ -1,6 +1,9 @@
 <?php 
 $title = 'Accueil';
-$css = 'public/css/accueil.css';
+$css = 'accueil.css';
+
+include 'app/model/ConnexionBDD.php';
+
 
 $currentPage = 'accueil';
 ob_start();
