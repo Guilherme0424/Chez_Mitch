@@ -18,11 +18,11 @@
     <img class="logo" src="public/images/Mitch noir (1).png" alt="">
     <nav id="nav" class="active">
       <ul>
-        <li><a href="#">Accueil</a></li>
+        <li><a href="accueil.php">Accueil</a></li>
         <li><a href="#">Bières</a></li>
         <li><a href="#">Notre brasserie</a></li>
-        <li><a href="#">Vulgarisation</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="">Vulgarisation</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
       <div id="icons" class="active"></div>
     </nav>
