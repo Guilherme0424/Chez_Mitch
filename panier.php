@@ -11,6 +11,7 @@ include 'app/model/ConnexionBDD.php';
 $pdo=getDatabaseConnection();
 
 $panier = isset($_SESSION['panier']) ? $_SESSION['panier'] : array();
+// $panier = [1, 2, "L'originale", 6];
 $ids = array_keys($panier);
 $nb_biere=0;
 $totalPanier = 0;
