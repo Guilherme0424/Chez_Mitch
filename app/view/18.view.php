@@ -15,7 +15,7 @@
     <div id="custom-cursor">    </div>
 
     <div class="question panneau">Avez-vous 18 ans ?</div>
-    <div class="oui panneau"> <a href="." >Oui !</a></div>
+    <div class="oui panneau"> <a href="accueil.php" >Oui !</a></div>
     <div class="non panneau"><a href="" >Non..</a></div>
 
 </body>
