@@ -42,7 +42,7 @@
          </div>
          <!-- <img class="gensilu" src="public/images/Chef de projet.png" alt=""> -->
          <?php
-            $students = getStudent('chef', $pdo);
+            $students = getStudent('Le chef de projet', $pdo);
             foreach ($students as $student) :
             ?>
              <img class="gensilu" src="public/images/<?= $student['image_equipe'] ?>" alt="">
@@ -66,7 +66,7 @@
              <!-- <img class="gensilu" id="lili" src="public/images/Lilirose.png" alt="">
              <img class="gensilu" id="lisa" src="public/images/lisa.png" alt=""> -->
              <?php
-                $students = getStudent('community_manager', $pdo);
+                $students = getStudent('Les community manager', $pdo);
                 foreach ($students as $student) :
                 ?>
                  <img class="gensilu" id="<?= str_replace(' ', '', $student['Prenom']); ?>" src="public/images/<?= $student['image_equipe'] ?>" alt="">
@@ -89,7 +89,7 @@
              <img class="gensilu" id="sey" src="public/images/Sey.png" alt="">
              <img class="gensilu" id="nath" src="public/images/Nath.png" alt=""> -->
              <?php
-                $students = getStudent('dev', $pdo);
+                $students = getStudent('Les développeurs', $pdo);
                 foreach ($students as $student) :
                 ?>
                  <img class="gensilu" id="<?= str_replace(' ', '', $student['Prenom']); ?>" src="public/images/<?= $student['image_equipe'] ?>" alt="">
@@ -112,7 +112,7 @@
              <img class="gensilu" id="noélie" src="public/images/Noélie.png" alt="">
              <img class="gensilu" id="pierre" src="public/images/Pierre.png" alt=""> -->
              <?php
-                $students = getStudent('gb', $pdo);
+                $students = getStudent('Nos superbes brasseurs', $pdo);
                 foreach ($students as $student) :
                 ?>
                  <img class="gensilu" id="<?= str_replace(' ', '', $student['Prenom']); ?>" src="public/images/<?= $student['image_equipe'] ?>" alt="">
