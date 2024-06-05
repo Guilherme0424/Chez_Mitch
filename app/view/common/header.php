@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <a href="panier.php" class="Panier"><img src="public/images/Panier.png" alt=""></a>
   <header>
     <img class="logo" src="public/images/Mitch noir (1).png" alt="">
     <a href="panier.php" class="Panier"><img src="public/images/Panier.png" alt=""></a>

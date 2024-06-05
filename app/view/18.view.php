@@ -12,23 +12,11 @@
 <body>
     <header><img src="public/images/MitchLogo.png" alt="logo" class="logo"></header>
     <img class="background" src="public/images/wawe.gif" alt="fond" srcset="">
-    <main>
-        
-        <div id="custom-cursor">    </div>
-        <section id="">
-            <div class="">
-                <p>Avez-vous 18 ans ?</p>
-            </div>
-            <div class="bloc">
-                <a href=""><p>Oui !</p></a>
-            </div>
-            <div class="bloc">
-                <a href=""><p>Non..</p></a>
-            </div>
-        </section>
+    <div id="custom-cursor">    </div>
 
-        <!-- <img src="/public/images/ove Surf (3).png" alt="fond" class="fond"> -->
-    </main>
+    <div class="question panneau">Avez-vous 18 ans ?</div>
+    <div class="oui panneau"> <a href="." >Oui !</a></div>
+    <div class="non panneau"><a href="" >Non..</a></div>
 
 </body>
 

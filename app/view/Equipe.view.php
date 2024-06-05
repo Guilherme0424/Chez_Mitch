@@ -2,7 +2,7 @@
      <div class="head">
          <h1>Notre brasserie</h1>
      </div>
-     <div class="intro">
+     <div class="intro ombre">
          <div class="mitchstory">
              <h2>L’histoire Chez Mitch</h2>
              <p>Vous vous demandez sûrement qui est Mitch ? Mitch est un jeune
@@ -30,9 +30,9 @@
                  engagement envers l'excellence créative et l'innovation, nous
                  nous efforçons de donner vie à vos idées avec originalité et flair.</p>
          </div>
+         <div class="shadow"></div>
      </div>
-     <div class="line"></div>
-     <div class="Lechefdeprojet">
+     <div class="Lechefdeprojet ombre">
          <div class="descrp1">
              <h1>Le chef de projet</h1>
              <p>Le chef de projet a pour mission de réaliser la communication interne entre les groupes, leur rappeler les deadlines, faire en sorte qu’ils respectent les attendus et s’adaptent au marché de la bière artisanale</p>
@@ -42,7 +42,7 @@
          </div>
          <!-- <img class="gensilu" src="public/images/Chef de projet.png" alt=""> -->
          <?php
-            $students = getStudent('chef', $pdo);
+            $students = getStudent('Le chef de projet', $pdo);
             foreach ($students as $student) :
             ?>
              <img class="gensilu" src="public/images/<?= $student['image_equipe'] ?>" alt="">
@@ -51,9 +51,12 @@
          <?php endforeach ?>
          <p class="comp">Compétences :
              dire des choses réels et drôle pour dynamiser</p>
+             <div class="shadow"></div>
+
+
      </div>
-     <div class="line"></div>
-     <div class="Lescommunitymanager">
+     
+     <div class="Lescommunitymanager ombre">
          <div class="descrp2">
              <h1>Les community manager</h1>
              <p>Nos community manager ont pour objectif de vous communiquer les informations importantes (des événements, concours, promo) sur les différents canaux de communication.</p>
@@ -63,7 +66,7 @@
              <!-- <img class="gensilu" id="lili" src="public/images/Lilirose.png" alt="">
              <img class="gensilu" id="lisa" src="public/images/lisa.png" alt=""> -->
              <?php
-                $students = getStudent('community_manager', $pdo);
+                $students = getStudent('Les community manager', $pdo);
                 foreach ($students as $student) :
                 ?>
                  <img class="gensilu" id="<?= str_replace(' ', '', $student['Prenom']); ?>" src="public/images/<?= $student['image_equipe'] ?>" alt="">
@@ -71,9 +74,11 @@
          </div>
          <p class="comp">Compétences :
              dire des choses réels et drôle pour dynamiser</p>
+             <div class="shadow"></div>
+
+
      </div>
-     <div class="line"></div>
-     <div class="Lesdévloppeurs">
+     <div class="Lesdévloppeurs ombre">
          <div class="descrp3">
              <h1>Les dévloppeurs</h1>
              <p>Les designers vont s’occuper de l’identité visuelle de la marque. Cela inclus la création du logo, de la charte graphique, des assets mais aussi de la création de ce site web.</p>
@@ -84,7 +89,7 @@
              <img class="gensilu" id="sey" src="public/images/Sey.png" alt="">
              <img class="gensilu" id="nath" src="public/images/Nath.png" alt=""> -->
              <?php
-                $students = getStudent('dev', $pdo);
+                $students = getStudent('Les développeurs', $pdo);
                 foreach ($students as $student) :
                 ?>
                  <img class="gensilu" id="<?= str_replace(' ', '', $student['Prenom']); ?>" src="public/images/<?= $student['image_equipe'] ?>" alt="">
@@ -92,9 +97,11 @@
          </div>
          <p class="comp">Compétences :
              dire des choses réels et drôle pour dynamiser</p>
+             <div class="shadow"></div>
+
      </div>
      <div class="line"></div>
-     <div class="Nossuperbesbrasseurs">
+     <div class="Nossuperbesbrasseurs ombre">
          <div class="descrp4">
              <h1>Nos superbes brasseurs</h1>
              <p>Du choix des ingrédients au brassage et à la mise en bouteille, nos brasseurs ont réalisé le produit de A à Z.</p>
@@ -105,7 +112,7 @@
              <img class="gensilu" id="noélie" src="public/images/Noélie.png" alt="">
              <img class="gensilu" id="pierre" src="public/images/Pierre.png" alt=""> -->
              <?php
-                $students = getStudent('gb', $pdo);
+                $students = getStudent('Nos superbes brasseurs', $pdo);
                 foreach ($students as $student) :
                 ?>
                  <img class="gensilu" id="<?= str_replace(' ', '', $student['Prenom']); ?>" src="public/images/<?= $student['image_equipe'] ?>" alt="">
@@ -113,6 +120,7 @@
          </div>
          <p class="comp">Compétences :
              dire des choses réels et drôle pour dynamiser</p>
+             <div class="shadow"></div>
      </div>
      <div class="line"></div>
  </section>
