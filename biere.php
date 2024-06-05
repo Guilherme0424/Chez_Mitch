@@ -1,5 +1,6 @@
 <?php
 session_start();
+getDatabaseConnection();
 
 try {
     $pdo = new PDO('mysql:host=localhost;dbname=cdce5547_2024_chez-mitch_1', 'root', '');
