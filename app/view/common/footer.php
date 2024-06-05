@@ -2,38 +2,38 @@
 <footer class="Pied">
     <?php
     // Déterminer la couleur en fonction de la page
-    $footerColor = '';
-    switch ($page_title) {
+    // $footerColor = '';
+    // switch ($page_title) {
 
-        case 'Vulgarisation':
-            $footerColor = '#FBCC54'; // Choisir la couleur appropriée
-            break;
+    //     case 'Vulgarisation':
+    //         $footerColor = '#FBCC54'; // Choisir la couleur appropriée
+    //         break;
 
-        case 'Avis':
-            $footerColor = '#FFF2CB';
-            break;
+    //     case 'Avis':
+    //         $footerColor = '#FFF2CB';
+    //         break;
 
-        case 'bienvenue':
-            $footerColor = '#00AFC7';
-            break;
+    //     case 'bienvenue':
+    //         $footerColor = '#00AFC7';
+    //         break;
 
-        case 'charte':
-            $footerColor = '#3F3F3F';
-            break;
+    //     case 'charte':
+    //         $footerColor = '#3F3F3F';
+    //         break;
 
-        case 'spot':
-            $footerColor = '#008B7F';
-            break;
+    //     case 'spot':
+    //         $footerColor = '#008B7F';
+    //         break;
 
-        case 'membre':
-            $footerColor = '#282626';
-            break;
+    //     case 'membre':
+    //         $footerColor = '#282626';
+    //         break;
 
-        default:
-            $footerColor = '#F8F7E4'; // Couleur par défaut
-            break;
-    }
-    ?>
+    //     default:
+    //         $footerColor = '#F8F7E4'; // Couleur par défaut
+    //         break;
+    // }
+    // ?>
 
     <div class="wave">
         <!-- <div class="wave" style="background-color: <?php echo $footerColor; ?>"> -->
