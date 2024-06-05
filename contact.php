@@ -1,6 +1,6 @@
 <?php 
 $title = 'Contact';
-$css = 'public/css/formulaire.css';
+$css = 'formulaire.css';
 
 $currentPage = 'contact';
 ob_start();
