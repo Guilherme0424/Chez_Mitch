@@ -73,17 +73,11 @@
      text-align: center;
  }
 
- #un {
-
-     position: relative;
-     right: 13px;
-
- }
 
  #deu {
 
      position: relative;
-     right: -1003px;
+     right: -1012px;
      top: -116px;
  }
 
@@ -106,8 +100,7 @@
      background-color: #f8f7e4;
  }
 
-
- .coté1 h2 {
+ h2 {
      margin-left: 377px;
 
 
@@ -132,7 +125,7 @@
  }
 
  .pa {
-    padding:2px;
+     padding: 2px;
 
  }
 

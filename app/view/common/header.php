@@ -16,13 +16,14 @@
   <a href="panier.php" class="Panier"><img src="public/images/Panier.png" alt=""></a>
   <header>
     <img class="logo" src="public/images/Mitch noir (1).png" alt="">
+    <a href="panier.php" class="Panier"><img src="public/images/Panier.png" alt=""></a>
     <nav id="nav" class="active">
       <ul>
         <li><a href="#">Accueil</a></li>
-        <li><a href="#">Bières</a></li>
+        <li><a href="catalogue.php">Bières</a></li>
         <li><a href="#">Notre brasserie</a></li>
-        <li><a href="#">Vulgarisation</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="vulgarisation.php">Vulgarisation</a></li>
+        <li><a href="contact.php">Contact</a></li>
       </ul>
       <div id="icons" class="active"></div>
     </nav>
